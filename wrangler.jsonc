@@ -1,0 +1,11 @@
+{
+  "name": "keiba-ai-payouts",
+  "main": "index.js",
+  "compatibility_date": "2026-10-03",
+
+  // 自動バックアップ用のKV。id を書かなくても、デプロイ時に自動で作られます（wrangler 4.45 以降）。
+  // 自動作成されない場合は、ダッシュボードで KV を作り、"id": "（作成したID）" を追加してください。
+  "kv_namespaces": [
+    { "binding": "BACKUP" }
+  ]
+}
