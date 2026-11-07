@@ -1,0 +1,10 @@
+{
+  "name": "keiba-ai-payouts",
+  "main": "index.js",
+  "compatibility_date": "2026-10-03",
+
+  // 自動バックアップ用のKV（keiba-ai-payouts-backup）。IDを固定して、別のKVが作られないようにしています。
+  "kv_namespaces": [
+    { "binding": "BACKUP", "id": "90c64988fa0a4209a0d957361b794290" }
+  ]
+}
